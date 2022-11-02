@@ -15,5 +15,5 @@ stdenv.mkDerivation {
     ];
     installPhase = ''
         rustup default stable
-    '';
+    '';   
 }
